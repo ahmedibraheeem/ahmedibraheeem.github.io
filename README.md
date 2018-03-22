@@ -8,7 +8,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h1 href="https:ahmedibraheeem.github.io" class="heading">Ahmad Ibrahim Mohamed - Portfolio</h1>
+            <h1  class="heading"> <a href="https:ahmedibraheeem.github.io">Ahmad Ibrahim Mohamed - Portfolio</a></h1>
             <p class="intro-text">A fullstack Developer</p>
             <a href="#about" class="btn btn-circle js-scroll-trigger">
               <i class="fa fa-angle-double-down animated"></i>
