@@ -1,3 +1,4 @@
+# [Ahmad Ibrahim Mohamed - Portfolio](https:ahmedibraheeem.github.io)
 <!DOCTYPE html>
 <html lang="en">
 <body id="page-top">
@@ -8,7 +9,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            # [Ahmad Ibrahim Mohamed - Portfolio](https:ahmedibraheeem.github.io)
+
             <p class="intro-text">A fullstack Developer</p>
             <a href="#about" class="btn btn-circle js-scroll-trigger">
               <i class="fa fa-angle-double-down animated"></i>
