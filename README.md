@@ -1,71 +1,157 @@
-# [Start Bootstrap - Grayscale](https://startbootstrap.com/template-overviews/grayscale/)
+<!DOCTYPE html>
+<html lang="en">
 
-[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+<head>
 
-## Preview
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-[![Grayscale Preview](https://startbootstrap.com/assets/img/templates/grayscale.jpg)](https://blackrockdigital.github.io/startbootstrap-grayscale/)
+  <title>Ahmad Ibrahim Mohamed - Portfolio</title>
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-grayscale/)**
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-## Status
+  <!-- Custom fonts for this template -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-grayscale/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-grayscale.svg)](https://www.npmjs.com/package/startbootstrap-grayscale)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-grayscale.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-grayscale)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale?type=dev)
+  <!-- Custom styles for this template -->
+  <link href="css/grayscale.min.css" rel="stylesheet">
 
-## Download and Installation
+</head>
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/grayscale/)
-* Install via npm: `npm i startbootstrap-grayscale`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-grayscale.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-grayscale)
+<body id="page-top">
 
-## Usage
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#download">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-### Basic Usage
+  <!-- Intro Header -->
+  <header class="masthead">
+    <div class="intro-body">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h1 class="heading">Ahmad Ibrahim Mohamed</h1>
+            <p class="intro-text">A fullstack Developer</p>
+            <a href="#about" class="btn btn-circle js-scroll-trigger">
+              <i class="fa fa-angle-double-down animated"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+  <!-- About Section -->
+  <section id="about" class="content-section text-center" background="img/contact-bg.jpg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>About Me</h2>
+          <p> <font size="5">I'm a fullstack Developer who uses PHP, Laravel, HTML, CSS, bootstrap, JavaScript, and Github to create websites. And I'm also familiar with Python, C, Java, OOP, Problem solving, and Artificial Intelligence . </font></p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-### Advanced Usage
+  <!-- Download Section -->
+  <section id="download" class="download-section content-section text-center">
+    <div class="container">
+      <div class="col-lg-8 mx-auto">
+        <h2>Projects</h2>
+        <p><font size="5">I've created a social media website (FriendsLink) using  PHP, JavaScript, HTML, and CSS you can check it <a href="https://ahmedibraheeem.github.io/FriendsLink">here</a> </font></p>
+        <p><font size="5">you can also check my last Artificial Intelligence mini-Project 8Puzzle solver <a href="https://ahmedibraheeem.github.io/8Puzzle/">here</a></font></p>
+      </div>
+    </div>
+  </section>
 
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+  <!-- Contact Section -->
+  <section id="contact" class="content-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Contact Me</h2>
+            <p>Phone: +201288395055 <br> Email: AhmedIbraheeem100@gmail.com </p>
 
-#### Gulp Tasks
+            <li class="list-inline-item">
+              <a href="https://twitter.com/ahmedibraheeem1" class="btn btn-default btn-lg">
+                <i class="fa fa-twitter fa-fw"></i>
+                <span class="network-name">Twitter</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/ahmad-ibrahim-2349b067/" class="btn btn-default btn-lg">
+                <i class="fa fa-Linkedin fa-fw"></i>
+                <span class="network-name">linkedin</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/ahmedibraheeem/" class="btn btn-default btn-lg">
+                <i class="fa fa-github fa-fw"></i>
+                <span class="network-name">Github</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/AhmedIbraheeem" class="btn btn-default btn-lg">
+                <i class="fa fa-Facebook fa-fw"></i>
+                <span class="network-name">Facebook</span>
+              </a>
+            </li>
+            <ul class="list-inline banner-social-buttons">
+              <li class="list-inline-item">
+                <a href="https://drive.google.com/open?id=1n8X2cRz6vwbvsfOTfkAhur5dvdubwaYz" class="btn btn-default btn-lg">
+                  <i class="fa fa-CV fa-fw"></i>
+                  <span class="network-name">My CV</span>
+                </a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-- `gulp` the default task that builds everything
-- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp sass` compiles SCSS files into CSS
-- `gulp minify-css` minifies the compiled CSS file
-- `gulp minify-js` minifies the themes JS file
-- `gulp copy` copies dependencies from node_modules to the vendor directory
 
-## Bugs and Issues
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <p>Copyright &copy; Ahmad Ibrahim mohamed</p>
+    </div>
+  </footer>
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-grayscale/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/grayscale/).
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-## Custom Builds
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
 
-## About
+</body>
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
+</html>
