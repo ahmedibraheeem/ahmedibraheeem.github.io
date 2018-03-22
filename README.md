@@ -1,4 +1,4 @@
-# [Ahmad Ibrahim Mohamed - Portfolio]: https:ahmedibraheeem.github.io
+# Ahmad Ibrahim Mohamed - Portfolio
 <!DOCTYPE html>
 <html lang="en">
 <body id="page-top">
