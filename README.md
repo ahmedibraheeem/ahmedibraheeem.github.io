@@ -2,24 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <body id="page-top">
-
-  <!-- Intro Header -->
-  <header class="masthead">
-    <div class="intro-body">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-
-            <p class="intro-text">A fullstack Developer</p>
-            <a href="#about" class="btn btn-circle js-scroll-trigger">
-              <i class="fa fa-angle-double-down animated"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
   <!-- About Section -->
   <section id="about" class="content-section text-center" background="img/contact-bg.jpg">
     <div class="container">
